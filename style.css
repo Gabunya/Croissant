@@ -1,10 +1,15 @@
+body {
+    background-color: #f8e8a6;
+}
 h1, p {
     text-align: center;
+    
 }
 
 h1 {
     display: block;
-    font-size: bold;
+    font-weight: bold;
+    font-size: 2em;
 }
 
 p {
@@ -25,3 +30,15 @@ color: green;
 a {
     cursor: pointer;
 }
+
+.photo-croissant {
+    max-width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin: 30px auto;
+}
+
+.mail-link {
+    color: blue;
+}
+
